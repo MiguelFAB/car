@@ -65,20 +65,37 @@ function myKeyDown(e)
 
 function up()
 {
-	//Definir função para mover o carro para cima
+    if(greencar_y>=0){
+     greencar_y =  greencar_y - 10;
+     upLoadBackground();
+     uploadGreenCar();
+    }
 }
 
 function down()
-{
-	//Definir função para mover o carro para baixo
+{    if(greencar_y<=500){
+     greencar_y =  greencar_y + 10;
+     upLoadBackground();
+     uploadGreenCar();
+    }
 }
 
 function left()
 {
 	//Definir função para mover o carro para o lado esquerdo
+     if(greencar_x>=0){
+     greencar_x =  greencar_x- 10;
+     upLoadBackground();
+     uploadGreenCar();
+
 }
 
 function right()
 {
-	//Definir função para mover o lado direito do carro
+     if(greencar_x<=900){
+     greencar_x =  greencar_x + 10;
+     upLoadBackground();
+     uploadGreenCar();
+     
+
 }
