@@ -10,7 +10,7 @@ greencar_x = 5;
 greencar_y = 225;
 function add() {
     imgBackground = new Image();
-    imgBackground.onload = upLoadBackground;
+    imgBackground.onload = uploadBackground;
     imgBackground.src = background_image;
     imgRover = new Image();
     imgRover.onload = uploadGreenCar;
