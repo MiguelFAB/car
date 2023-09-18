@@ -1,9 +1,5 @@
-
-    let canvas = document.getElementById("meuCanvas");
-    let caneta = canvas.getContext("2d");
-
-
-
+ var canvas = document.getElementById("meuCanvas");
+ var caneta = canvas.getContext("2d");
 
 backgroundImage = "parkingLot.jpg";
 greencarImage = "car2.png";
