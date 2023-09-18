@@ -1,9 +1,8 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+
     let canvas = document.getElementById("meuCanvas");
     let caneta = canvas.getContext("2d");
 
-    // O resto do seu código aqui
-});
+
 
 
 backgroundImage = "parkingLot.jpg";
